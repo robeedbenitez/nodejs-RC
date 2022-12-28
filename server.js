@@ -3,12 +3,12 @@ const express = require('express');
 const bodyParser = require('body-parser');
 
 /*Creamos el servidor*/
-const port = 3000;
+const port = 4000;
 const app = express();
 
 /*Creamos las rutas*/
 //const routes = require('./components/message/network');
-const routes = require('./network/router');
+const routes = require('./components/network/router');
 
 
 app.use(bodyParser.json());
